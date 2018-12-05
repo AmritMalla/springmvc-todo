@@ -43,6 +43,10 @@ public class TodoService {
 		return filteredTodos;
 	}
 
+	public List<Todo> retrieveAllTodos() {
+		return todos;
+	}
+
 	public Todo retrieveTodo(int id) {
 		for (Todo todo : todos) {
 			if (todo.getId() == id) {

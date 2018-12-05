@@ -6,6 +6,9 @@
 	Hi !!! ${name } <br>
 
 	<table class="table table-striped">
+	<caption>
+	<spring:message code="todo.caption"></spring:message>
+	</caption>
 		<tr>
 			<th>Id</th>
 			<th>User</th>
